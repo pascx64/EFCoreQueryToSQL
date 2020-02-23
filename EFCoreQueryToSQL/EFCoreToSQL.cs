@@ -9,7 +9,7 @@ namespace EFCoreQueryToSQL
 {
     public static class EFCoreToSQL
     {
-        public static string ToSql<TEntity>(IQueryable<TEntity> query) where TEntity : class
+        public static string ToSql<TEntity>(this IQueryable<TEntity> query) where TEntity : class
         {
             var enumerator = query.Provider.Execute<IEnumerable<TEntity>>(query.Expression).GetEnumerator();
             var relationalCommandCache = Private(enumerator, "_relationalCommandCache");

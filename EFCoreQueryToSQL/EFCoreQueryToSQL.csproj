@@ -6,7 +6,7 @@
     <RepositoryUrl>https://github.com/pascx64/EFCoreQueryToSQL</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/pascx64/EFCoreQueryToSQL</PackageProjectUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
