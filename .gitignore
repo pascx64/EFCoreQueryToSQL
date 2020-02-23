@@ -3,3 +3,6 @@
 ################################################################################
 
 /EFCoreQueryToSQL/.vs/EFCoreQueryToSQL
+/.vs
+/EFCoreQueryToSQL/bin
+/EFCoreQueryToSQL/obj
